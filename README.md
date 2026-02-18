@@ -6,8 +6,7 @@
 [![Accuracy](https://img.shields.io/badge/Accuracy-96.33%25-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A high-performance Vision Transformer (ViT) model for automated skin lesion classification, achieving **96.33% accuracy** and **92.74% balanced accuracy** on the HAM10000 dataset.
-
+A high-performance Vision Transformer (ViT) model achieving **91.32% validation accuracy** during training and **96.33% overall accuracy** on final evaluation across 10,015 images.
 ---
 
 ## 📊 Dataset Overview
