@@ -55,21 +55,24 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 | NV | 99.61% | 95.18% | 97.35% | 0.997 |
 | VASC | 97.93% | 100.00% | 98.95% | 1.000 |
 
-### Confusion Matrix
+### Confusion Matrix & ROC Curves
 
 <div align="center">
-<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/confusion_matrix_7class.png" alt="Confusion Matrix" width="400"/>
+
+**Analysis:** Strong diagonal in confusion matrix indicates excellent classification. Minor confusion between MEL and NV (17 cases) is clinically acceptable as both require monitoring. All classes achieve AUC ≥ 0.996, demonstrating exceptional discriminative power with perfect AUC (1.000) for BCC, DF, and VASC.
+
+<table>
+<tr>
+<td width="50%">
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/confusion_matrix_7class.png" alt="Confusion Matrix" width="100%"/>
+</td>
+<td width="50%">
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/roc_curves_7class.png" alt="ROC Curves" width="100%"/>
+</td>
+</tr>
+</table>
+
 </div>
-
-**Analysis:** Strong diagonal indicates excellent classification. Minor confusion between MEL and NV (17 cases) is clinically acceptable as both require monitoring.
-
-### ROC Curves
-
-<div align="center">
-<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/roc_curves_7class.png" alt="ROC Curves" width="400"/>
-</div>
-
-**Analysis:** All classes achieve AUC ≥ 0.996, demonstrating exceptional discriminative power. Perfect AUC (1.000) for BCC, DF, and VASC.
 
 ---
 
