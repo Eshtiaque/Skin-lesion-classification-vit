@@ -16,7 +16,7 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 ### Class Distribution
 
 <div align="center">
-<img src="outputs/ham10000_class_distribution.png" alt="Class Distribution" width="800"/>
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/ham10000_class_distribution.png" width="600"/>
 </div>
 
 **Challenge:** Severe class imbalance (58.3x ratio) with minority class (DF) having only 115 samples.
@@ -58,7 +58,7 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 ### Confusion Matrix
 
 <div align="center">
-<img src="outputs/confusion_matrix_7class.png" alt="Confusion Matrix" width="600"/>
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/confusion_matrix_7class.png" alt="Confusion Matrix" width="600"/>
 </div>
 
 **Analysis:** Strong diagonal indicates excellent classification. Minor confusion between MEL and NV (17 cases) is clinically acceptable as both require monitoring.
@@ -66,7 +66,7 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 ### ROC Curves
 
 <div align="center">
-<img src="outputs/roc_curves_7class.png" alt="ROC Curves" width="600"/>
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/roc_curves_7class.png" alt="ROC Curves" width="600"/>
 </div>
 
 **Analysis:** All classes achieve AUC ≥ 0.996, demonstrating exceptional discriminative power. Perfect AUC (1.000) for BCC, DF, and VASC.
@@ -108,35 +108,6 @@ NUM_FOLDS     = 10
 - ElasticTransform
 - CoarseDropout
 ```
-
----
-
-## 🛠️ Installation
-
-### Prerequisites
-```bash
-Python 3.8+
-CUDA 11.0+ (for GPU acceleration)
-Kaggle GPU T4 (recommended)
-```
-
-### Dependencies
-```txt
-torch>=2.0.0
-torchvision>=0.15.0
-timm>=0.9.0
-albumentations>=1.3.0
-scikit-learn>=1.3.0
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-pillow>=10.0.0
-tqdm>=4.65.0
-codecarbon>=2.3.0
-```
-
----
 
 ## 🎯 Usage
 
