@@ -58,7 +58,7 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 ### Confusion Matrix
 
 <div align="center">
-<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/confusion_matrix_7class.png" alt="Confusion Matrix" width="600"/>
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/confusion_matrix_7class.png" alt="Confusion Matrix" width="400"/>
 </div>
 
 **Analysis:** Strong diagonal indicates excellent classification. Minor confusion between MEL and NV (17 cases) is clinically acceptable as both require monitoring.
@@ -66,7 +66,7 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 ### ROC Curves
 
 <div align="center">
-<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/roc_curves_7class.png" alt="ROC Curves" width="600"/>
+<img src="https://github.com/Eshtiaque/Skin-lesion-classification-vit/blob/main/roc_curves_7class.png" alt="ROC Curves" width="400"/>
 </div>
 
 **Analysis:** All classes achieve AUC ≥ 0.996, demonstrating exceptional discriminative power. Perfect AUC (1.000) for BCC, DF, and VASC.
