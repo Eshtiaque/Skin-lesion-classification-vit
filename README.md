@@ -57,10 +57,9 @@ The HAM10000 (Human Against Machine with 10000 training images) dataset contains
 
 ### Confusion Matrix & ROC Curves
 
-<div align="center">
-
 **Analysis:** Strong diagonal in confusion matrix indicates excellent classification. Minor confusion between MEL and NV (17 cases) is clinically acceptable as both require monitoring. All classes achieve AUC ≥ 0.996, demonstrating exceptional discriminative power with perfect AUC (1.000) for BCC, DF, and VASC.
 
+<div align="center">
 <table>
 <tr>
 <td width="50%">
